@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+@font-face {
+  font-family: 'Roboto Bk';
+  src: url('../fonts/roboto.ttf');
+}
+
+.welcome-section {
+  background: url("../image/bacground-main-section.png") bottom no-repeat,url('../image/gradient.png')bottom;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 100vh;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.menu {
+  a:hover {
+    color: $color-hover-button;
+  }
+}
+
+.list-menu {
+  font: 100% $font-family-menu;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  li {
+    list-style-type: none;
+    padding-right: 25px;
+  }
+
+  li:last-child {
+    padding-right: 0;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 15px;
+    color: $color-main;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+
+
+

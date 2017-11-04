@@ -1,0 +1,50 @@
+.content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome-section-text {
+  text-align: center;
+  position: relative;
+  top:200px;
+  width: 770px;
+
+  h2 {
+    font: 100% $font-family-2;
+    color: $color-main;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 50px;
+  }
+
+  p {
+    font: 100% $font-family-3;
+    color: $color-main;
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: 50px;
+  }
+ }
+
+.button-learn-more {
+  display: block;
+  margin: 0 auto;
+  font: 100% $font-family-4;
+  padding: 15px 15px;
+  background: transparent;
+  border: 1px solid $color-hover-button;
+  font-size: 15px;
+  cursor: pointer;
+  color: $color-hover-button;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.button-learn-more:focus,
+.button-learn-more:active {
+  outline: none;
+  }
+
+
+

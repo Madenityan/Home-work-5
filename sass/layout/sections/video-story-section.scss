@@ -1,0 +1,25 @@
+.video-story {
+    background: url("../image/video.png") bottom no-repeat,url('../image/gradient.png');
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+.play-video {
+
+  img:hover {
+    cursor: pointer;
+  }
+
+   p {
+    color:$color-main;
+    text-transform: uppercase;
+    font: 100% $font-family-menu;
+     font-size: 20px;
+  }
+}

@@ -1,0 +1,45 @@
+.people-say {
+  background: url("../image/bag-people-say.png") bottom no-repeat,url('../image/gradient.png');
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 100vh;
+}
+
+.blockquote-people {
+    text-align: center;
+
+  p {
+    font:100% $font-family-2;
+    color: $color-p-3;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  cite {
+    font:100% $font-family-menu;
+    color: $color-main;
+    font-size:15px;
+
+  }
+}
+  .blockquote-people:before {
+    content: "";
+    background-image: url(../image/tajem_master.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 31px;
+    display: inline-block;
+    padding-bottom: 40px;
+  }
+
+.blockquote-footer {
+    padding-top: 50px;
+
+  p {
+    font:100% $font-family-2;
+    color: $color-p-3;
+    font-size: 15px;
+    line-height: 15px;
+  }
+}

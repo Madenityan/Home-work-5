@@ -1,0 +1,37 @@
+.our-story {
+  background: $color-main;
+}
+.our-story .container {
+  display: flex;
+  padding: 70px 0 70px;
+
+  img {
+    margin: 0 100px 0 70px;
+    align-self: center;
+  }
+ }
+
+.our-story-content {
+  width: 540px;
+
+  h3 {
+    text-transform: uppercase;
+    font: 100% $font-family-2;
+    font-weight: bold;
+    font-size: 25px;
+    color: $color-h3;
+  }
+
+  p{
+    font: 100% $font-family-3;
+    color: $color-p;
+    line-height: 20px;
+    font-size: 15px;
+
+  }
+
+  button {
+    margin: 0;
+    margin-top: 30px;
+  }
+}

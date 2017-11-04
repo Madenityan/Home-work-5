@@ -1,0 +1,79 @@
+.team {
+  background: url("../image/team-bacg.png") bottom no-repeat,url('../image/gradient.png');
+  background-size: cover;
+  background-blend-mode: multiply;
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
+.header-team {
+  padding-bottom: 50px;
+
+  h3 {
+    color: $color-main;
+  }
+  p {
+    color: $color-p-3;
+    font-size: 15px;
+  }
+}
+
+.list-team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+
+  li {
+    list-style-type: none;
+    margin-right: 20px;
+    }
+}
+
+  .image-team {
+
+    img {
+      display: block;
+      width: 222px;
+      height: 228px;
+    }
+  }
+
+.border-text {
+  border: 1px solid $color-border;
+  padding: 20px 40px 25px;
+
+  p {
+    font: 100% $font-family-menu;
+    font-size: 15px;
+    color: $color-main;
+    text-align: center;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0.5em;
+  }
+
+  span {
+    font:100% $font-family-3;
+    display: block;
+    font-size: 15px;
+    color: $color-span;
+    text-align: center;
+   }
+ }
+
+.bottom-text {
+  p {
+    font:100% $font-family-3;
+    font-size: 15px;
+    color: $color-main;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}
+
+
+
+
+
+
