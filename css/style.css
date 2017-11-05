@@ -987,7 +987,7 @@ template {
   font-weight: bold;
   font-size: 20px;
   color: #413d4b;
-  padding-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 /* line 20, ../sass/layout/sections/contact-section.scss */
@@ -1054,34 +1054,235 @@ template {
 .list-client li {
   width: 170px;
   display: inline-block;
-  vertical-align: middle;
-  padding-bottom: 45px;
+  margin-bottom: 45px;
   margin-right: 36px;
   text-align: center;
   vertical-align: baseline;
 }
-/* line 87, ../sass/layout/sections/contact-section.scss */
+/* line 86, ../sass/layout/sections/contact-section.scss */
 .list-client li:nth-child(even) {
   margin-right: 0;
 }
 
-/* line 93, ../sass/layout/sections/contact-section.scss */
+/* line 92, ../sass/layout/sections/contact-section.scss */
 .our-client h3 {
   font: 100% "Playfair+Display";
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
   color: #413d4b;
-  padding-bottom: 35px;
+  margin-bottom: 35px;
 }
 
-/* line 104, ../sass/layout/sections/contact-section.scss */
+/* line 102, ../sass/layout/sections/contact-section.scss */
 .contact .container {
   display: flex;
   flex-direction: row;
 }
 
-/* line 109, ../sass/layout/sections/contact-section.scss */
+/* line 107, ../sass/layout/sections/contact-section.scss */
 .good-news {
-  padding-right: 100px;
+  margin-right: 100px;
+}
+
+/* line 1, ../sass/layout/_footer.scss */
+.footer-section {
+  background: url("../image/bag-footer.png") bottom no-repeat, url("../image/gradient.png");
+  background-size: cover;
+  background-blend-mode: multiply;
+  min-height: 400px;
+}
+
+/* line 8, ../sass/layout/_footer.scss */
+.logo-footer {
+  width: 290px;
+  margin-right: 35px;
+  margin-bottom: 30px;
+}
+/* line 12, ../sass/layout/_footer.scss */
+.logo-footer p {
+  font: 100% "Roboto";
+  font-size: 15px;
+  color: #e6e5e8;
+  line-height: 25px;
+}
+
+/* line 20, ../sass/layout/_footer.scss */
+.footer-top {
+  display: flex;
+  padding-top: 70px;
+}
+
+/* line 25, ../sass/layout/_footer.scss */
+.address-footer {
+  width: 270px;
+  margin-right: 60px;
+}
+/* line 29, ../sass/layout/_footer.scss */
+.address-footer h3 {
+  font: 100% "Roboto Bk";
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+/* line 35, ../sass/layout/_footer.scss */
+.address-footer address {
+  font: 100% "Roboto";
+  font-size: 15px;
+  color: #e6e5e8;
+  line-height: 25px;
+}
+/* line 42, ../sass/layout/_footer.scss */
+.address-footer p {
+  display: inline-block;
+  width: 240px;
+  vertical-align: top;
+  -webkit-margin-before: 0;
+}
+/* line 49, ../sass/layout/_footer.scss */
+.address-footer a {
+  font-size: 15px;
+  color: #e6e5e8;
+  text-decoration: none;
+}
+/* line 54, ../sass/layout/_footer.scss */
+.address-footer address:before {
+  content: "";
+  background-image: url(../image/marker.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 14px;
+  height: 19px;
+  display: inline-block;
+  margin-right: 15px;
+}
+/* line 65, ../sass/layout/_footer.scss */
+.address-footer a:before {
+  content: "";
+  background-image: url(../image/phone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+/* line 78, ../sass/layout/_footer.scss */
+.form-social h3 {
+  font: 100% "Roboto Bk";
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* line 86, ../sass/layout/_footer.scss */
+.footer-form {
+  margin-bottom: 25px;
+}
+/* line 88, ../sass/layout/_footer.scss */
+.footer-form input {
+  font: 100% "Roboto";
+  background: transparent;
+  border: 1px solid #e5e5e5;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 40px;
+  width: 210px;
+  text-align: center;
+}
+/* line 98, ../sass/layout/_footer.scss */
+.footer-form input:focus {
+  outline: none;
+}
+/* line 102, ../sass/layout/_footer.scss */
+.footer-form p:after {
+  content: "";
+  background-image: url(../image/submite.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 70px;
+  height: 45px;
+  display: inline-block;
+  margin-left: 15px;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+
+/* line 116, ../sass/layout/_footer.scss */
+.social-list {
+  list-style-type: none;
+  display: flex;
+  -webkit-padding-start: 0px;
+}
+/* line 121, ../sass/layout/_footer.scss */
+.social-list a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+/* line 131, ../sass/layout/_footer.scss */
+.facebook-icon {
+  background: url("../image/facebook.png") center;
+}
+
+/* line 135, ../sass/layout/_footer.scss */
+.twitter-icon {
+  background: url("../image/twitter.png") center;
+}
+
+/* line 139, ../sass/layout/_footer.scss */
+.dribble-icon {
+  background: url("../image/dribble.png") center;
+}
+
+/* line 143, ../sass/layout/_footer.scss */
+.instagram-icon {
+  background: url("../image/instagram.png") center;
+}
+
+/* line 147, ../sass/layout/_footer.scss */
+.google-icon {
+  background: url("../image/google+.png") center;
+}
+
+/* line 151, ../sass/layout/_footer.scss */
+.ytube-icon {
+  background: url("../image/ytube.png") center;
+}
+
+/* line 155, ../sass/layout/_footer.scss */
+.list-navigation {
+  display: flex;
+  -webkit-padding-start: 0px;
+}
+/* line 159, ../sass/layout/_footer.scss */
+.list-navigation a {
+  list-style-type: none;
+  text-decoration: none;
+  font: 100% "Roboto";
+  font-size: 15px;
+  color: #e6e5e8;
+}
+/* line 167, ../sass/layout/_footer.scss */
+.list-navigation li {
+  margin-right: 35px;
+}
+
+/* line 172, ../sass/layout/_footer.scss */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 35px;
+}
+/* line 178, ../sass/layout/_footer.scss */
+.footer-bottom span {
+  font: 100% "Roboto";
+  font-size: 15px;
+  color: #e6e5e8;
 }

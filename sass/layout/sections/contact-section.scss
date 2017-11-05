@@ -11,7 +11,7 @@
     font-weight: bold;
     font-size: 20px;
     color: $color-h3;
-    padding-bottom: 35px;
+    margin-bottom: 35px;
   }
 }
 
@@ -76,8 +76,7 @@
   li {
     width: 170px;
     display: inline-block;
-    vertical-align: middle;
-    padding-bottom: 45px;
+    margin-bottom: 45px;
     margin-right: 36px;
     text-align: center;
     vertical-align: baseline;
@@ -96,10 +95,9 @@
     font-weight: bold;
     font-size: 20px;
     color: $color-h3;
-    padding-bottom: 35px;
+    margin-bottom: 35px;
   }
 }
-
 
 .contact .container {
   display:flex;
@@ -107,7 +105,9 @@
   }
 
 .good-news {
-  padding-right: 100px;
+  margin-right: 100px;
+
+
 }
 
 
